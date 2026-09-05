@@ -1,0 +1,1 @@
+import{a as e,n as t}from"./jsx-runtime-B-hcVAMW.js";function n(e){return e?.isNotFound===!0}var r=e(t(),1),i=r.createContext(null);function a(e){return r.useContext(i)}export{i as n,n as r,a as t};

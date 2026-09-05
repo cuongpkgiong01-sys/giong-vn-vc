@@ -1,0 +1,8 @@
+{
+    "database": {
+        "path": "data/transport.db"
+    },
+    "storage": {
+        "images_dir": "data/images"
+    }
+}
