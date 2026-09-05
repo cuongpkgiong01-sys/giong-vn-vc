@@ -10,6 +10,33 @@ theirs; the rules below name the file to open at each point it matters.
 
 ---
 
+## 📋 Quy tắc làm việc với Grok Route (Giong VN)
+
+### ✅ Tự động Commit & Push sau mỗi lần viết code
+- **Commit ngay** với message chuẩn Conventional Commits sau khi hoàn thành code
+- **Push lên GitHub** để kích hoạt auto-increment version
+- Format commit message: `feat:`, `fix:`, `docs:`, `style:`, `refactor:`, `test:`, `chore:`
+
+### 📝 Lịch sử công việc (Work Log)
+Bảng theo dõi: Thời gian | Công việc | Version | File thay đổi
+
+| Thời gian | Công việc | Version | File thay đổi | Ghi chú |
+|-----------|-----------|---------|---------------|---------|
+| 2025-01-XX 14:30 | Thiết lập auto-versioning | 1.0.0 | 4 files | Script tăng version tự động |
+| 2025-01-XX 14:35 | Commit quy tắc làm việc | 1.0.0 | AGENTS.md | Thêm work log tracking |
+| 2025-01-XX 14:40 | Kết nối remote GitHub | 1.0.0 | git config | Origin: cuongpkgiong01-sys/giong-vn-vc |
+
+### 🔄 Workflow mặc định
+1. Viết code xong → Chạy test (nếu có)
+2. Commit: `git add -A && git commit -m "type: description"`
+3. Push: `git push origin main`
+4. GitHub Actions tự động tăng PATCH version
+5. Update Work Log ở trên
+
+---
+
+---
+
 ## Skills (in `.grok/skills/` — consult BEFORE building)
 
 Skills are auto-listed with trigger words; open the matching `SKILL.md` (plus
